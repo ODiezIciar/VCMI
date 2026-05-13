@@ -306,6 +306,7 @@ void CArmyTooltip::init(const InfoAboutArmy &army)
 	slotsPos.push_back(Point(36, 73));
 	slotsPos.push_back(Point(72, 73));
 	slotsPos.push_back(Point(108, 73));
+	slotsPos.push_back(Point(144, 73));
 	slotsPos.push_back(Point(18, 122));
 	slotsPos.push_back(Point(54, 122));
 	slotsPos.push_back(Point(90, 122));
@@ -328,6 +329,7 @@ void CGarrisonTooltip::init(const InfoAboutArmy& army)
 	slotsPos.push_back(Point(158, 48));
 	slotsPos.push_back(Point(194, 48));
 	slotsPos.push_back(Point(230, 48));
+	slotsPos.push_back(Point(266, 48));
 
 	BuildArmyStacksUI(army, slotsPos, icons, subtitles);
 }

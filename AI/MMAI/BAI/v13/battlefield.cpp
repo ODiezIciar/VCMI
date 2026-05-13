@@ -314,9 +314,9 @@ std::tuple<Stacks, Queue> Battlefield::InitStacks(
 	/*
 	 * Units for each side are indexed as follows:
 	 *
-	 *  1. The 7 "regular" army stacks use indexes 0..6 (index=slot)
-	 *  2. Up to N* summoned units will use indexes 7+ (ordered by unit ID)
-	 *  3. Up to N* war machines will use FREE indexes 7+, if any (ordered by unit ID).
+	 *  1. The 8 "regular" army stacks use indexes 0..7 (index=slot)
+	 *  2. Up to N* summoned units will use indexes 8+ (ordered by unit ID)
+	 *  3. Up to N* war machines will use FREE indexes 8+, if any (ordered by unit ID).
 	 *  4. Remaining units from 2. and 3. will use FREE indexes from 1, if any (ordered by unit ID).
 	 *  5. Remaining units from 4. will be ignored.
 	 */
